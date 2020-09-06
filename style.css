@@ -17,7 +17,7 @@ html {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #222; }
 
 /* Typography
@@ -138,4 +138,40 @@ ul {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .recipe-ingredients h5, .recipe-steps h5 {
     text-transform: uppercase;
+}
+
+
+/* Construction
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html { 
+  background: url(bg.jpg) no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-box {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 3em 4em;
+  box-shadow: 0px 1px 0px rgba(17,17,26,0.1), 0px 8px 24px rgba(17,17,26,0.1), 0px 16px 48px rgba(17,17,26,0.1);
+}
+
+.subtitle {
+  color: #0F346C;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
 }

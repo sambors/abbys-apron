@@ -240,7 +240,7 @@ nav {
     /* background-color: salmon; */
     margin-top: var(--header-height);
     position: fixed;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .sidebar a {
